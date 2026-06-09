@@ -1,2 +1,2 @@
 # This is my local repository.
-<br>This is from functionality branch.
+<br>This is from main branch.
