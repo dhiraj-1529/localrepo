@@ -1,4 +1,25 @@
-body{
+#styleBody{
     background-color: wheat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#styleButton{
+    padding: 5px;
+    color: indianred;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 15px;
+    border-width: 2px;
+    cursor: pointer;
+}
+#styleBody.highlight{
+    background-color: coral;
+}
+#styleButton.clickedButton{
+    padding: 5px;
+    color: rgb(245, 145, 145);
+    font-weight: bold;
+    background-color: rgba(226, 77, 77, 0.637);
+    border-radius: 15px;
+    border-width: 2px;
+    cursor: pointer;
 }
