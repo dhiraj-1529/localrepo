@@ -5,16 +5,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="styleBody">
-    <h1>This is my first GitHub project.</h1><br>
-    <p>I will learn it to core.</p>
-    <button id="styleButton">Change color</button>
+    <div class="navbar">
+        <h2>CodeWithDhiraj</h2>
+        <ul class="nav-list">
+            <a class="link" href="index.html"><li>Home</li></a>
+            <a class="link" href="index.html"><li>Features</li></a>
+            <a class="link" href="index.html"><li>About Us</li></a>
+            <a class="link" href="index.html"><li>Call Us</li></a>
+        </ul>
+    </div>
 </body>
-<script>
-    const button = document.getElementById("styleButton");
-    const background = document.getElementById("styleBody");
-    button.addEventListener("click", () => {
-        background.classList.toggle("highlight");
-        button.classList.toggle("clickedButton");
-    });
-</script>
 </html>

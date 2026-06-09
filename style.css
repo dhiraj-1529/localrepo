@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #styleBody{
     background-color: wheat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,15 +15,28 @@
     border-width: 2px;
     cursor: pointer;
 }
-#styleBody.highlight{
-    background-color: coral;
-}
-#styleButton.clickedButton{
-    padding: 5px;
-    color: rgb(245, 145, 145);
+.navbar{
     font-weight: bold;
-    background-color: rgba(226, 77, 77, 0.637);
-    border-radius: 15px;
-    border-width: 2px;
-    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 650px;
+    background-color: #ffb759ea;
+    color: black;
+    
+}
+.nav-list{
+    display: flex;
+    gap: 70px;
+    padding: 0;
+    list-style: none;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    transition: all 0.3s ease;
+}
+.link:hover{
+    color: brown;
 }
